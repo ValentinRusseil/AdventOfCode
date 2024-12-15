@@ -20,7 +20,7 @@ export default async function part1() {
                         if (!(add >= 1 && add <=3)) isSafe = false;
                     } else {
                         const sub = parseInt(part) - parseInt(parts[index+1]);
-                        if (!(sub >=1 && sub <= 2)) isSafe = false;
+                        if (!(sub >=1 && sub <= 3)) isSafe = false;
                     }
                 } else {
                     isSafe = false;
